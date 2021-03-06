@@ -15,8 +15,8 @@
         <div class="slogan">
           <span class="slogan-title"> 基于Vue2.x的UI组件库 </span>
           <span class="slogan-btn">
-            <router-link to="/componentDoc">开始</router-link>
-            <a href="">Github</a>
+            <router-link to="/componentDoc/intro">开始使用</router-link>
+            <a href="https://github.com/guxiaobiao/PGL-UI">Github</a>
           </span>
         </div>
       </header>

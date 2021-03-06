@@ -21,7 +21,7 @@
             <router-link to="/componentDoc">Switch 组件</router-link>
           </li>
           <li>
-            <router-link to="/componentDoc">Button 组件</router-link>
+            <router-link to="/componentDoc/pglButton">Button 组件</router-link>
           </li>
           <li>
             <router-link to="/componentDoc">Dialog 组件</router-link>
@@ -50,7 +50,7 @@
   }
   > .content {
     flex-grow: 1;
-    padding-top: 60px;
+    // padding-top: 60px;
     padding-left: 156px;
    
   }
