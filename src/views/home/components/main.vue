@@ -1,7 +1,6 @@
 <template>
   <div class="Main">
     <Header />
-
     <div class="main-banner">
       <header>
         <div class="nameLogo">
@@ -16,7 +15,7 @@
         <div class="slogan">
           <span class="slogan-title"> 基于Vue2.x的UI组件库 </span>
           <span class="slogan-btn">
-            <a href="">开始</a>
+            <router-link to="/componentDoc">开始</router-link>
             <a href="">Github</a>
           </span>
         </div>
