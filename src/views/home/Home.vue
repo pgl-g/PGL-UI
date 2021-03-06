@@ -1,14 +1,14 @@
 <template>
-  <Header />
+  <Main />
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import Header from './components/header.vue';
+import Main from './components/main.vue';
 
 @Component({
   components: {
-    Header,
+    Main,
   },
 })
 export default class Home extends Vue {}
