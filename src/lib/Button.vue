@@ -6,13 +6,14 @@
 </template>
 
 <script lang="ts">
-import { Vue, Prop } from "vue-property-decorator";
+import { Vue, Prop, Watch } from "vue-property-decorator";
 export default class Button extends Vue {
   @Prop({ default: 'button' }) readonly theme!: string;
   @Prop({ default: 'normal' }) readonly size!: string;
   @Prop({ default: 'normal' }) readonly level!: string;
   @Prop({ type: Boolean, default: false }) readonly disabled!: boolean;
   @Prop({ type: Boolean, default: false }) readonly loading!: boolean;
+
 
   get classes() {
     return {
