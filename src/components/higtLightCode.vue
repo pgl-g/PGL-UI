@@ -7,13 +7,10 @@ import { Component, Vue, Prop } from "vue-property-decorator";
 import 'prismjs';
 import 'prismjs/themes/prism-okaidia.css';
 
-interface codeConfig {
-  [codeType: string]: any
-}
 @Component
 export default class HighLightCode extends Vue {
   @Prop() private codeString!: string;
-  @Prop() private codeType!: codeConfig;
+  @Prop() private codeType!: any;
 
   public code!:any;
 
