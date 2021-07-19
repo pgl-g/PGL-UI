@@ -15,6 +15,7 @@ export default class HighLightCode extends Vue {
   public code!:any;
 
   created() {
+    console.log(this.codeType)
     let Prism = (window as any).Prism;
     let codeString = this.codeString;
     let hash = {
